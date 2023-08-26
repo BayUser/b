@@ -145,6 +145,10 @@ module.exports = {
     languages: [{
         flag: 'tr',
         code: 'tr',
-        name: 'Türkçe'
+        name: 'Turkish'
+      }, {
+        flag: 'us',
+        code: 'en',
+        name: 'English'
     }],
 }
