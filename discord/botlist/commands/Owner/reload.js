@@ -64,7 +64,7 @@ module.exports = {
                 const embed = {};
                 embed.title = "Reload Error";
                 embed.description = `\`\`\`${e}\`\`\``;
-                embed.color = 0xff0000;
+                embed.color = 0x2f3136;
                 message.channel.send({
                     embeds: [embed]
                 });

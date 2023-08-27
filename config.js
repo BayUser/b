@@ -20,7 +20,7 @@ module.exports = {
     },
 
     database: {
-        url: process.env.mongo, // Mongo url (eg. mongodb+srv://<username>:<password>@<host>/<database>)
+        url: "mongodb+srv://pegasus:sAw6D9uyGCoKN15D@cluster0.biew5bl.mongodb.net/?retryWrites=true&w=majority", // Mongo url (eg. mongodb+srv://<username>:<password>@<host>/<database>)
     },
 
     website: {

@@ -79,17 +79,12 @@ module.exports = {
                                     style: 5,
                                     label: "Visit Server",
                                     url: `${global.config.website.url}/servers/${message.guild.id}`,
-                                    emoji: {
-                                        name: "🔗"
-                                    }
+                          
                                 }, {
                                     type: 2,
                                     style: 5,
                                     label: "Add your server",
                                     url: `${global.config.website.url}/servers`,
-                                    emoji: {
-                                        name: "➕"
-                                    }
                                 }
                             ]
                         }]
@@ -138,7 +133,7 @@ module.exports = {
                         name: `Next bump for ${message.author.tag}`,
                         value: `In 3 hours`,
                     }],
-                    color: 0x00ff00 // Green
+                    color: 0x2f3136 // Green
                 }],
                 components: [{
                     type: 1,
@@ -148,26 +143,20 @@ module.exports = {
                             style: 5,
                             label: "Visit Server",
                             url: `${global.config.website.url}/server/${message.guild.id}`,
-                            emoji: {
-                                name: "🔗"
-                            }
+                          
                         }, {
                             type: 2,
                             style: 5,
                             label: "Invite",
                             url: `https://discord.com/api/oauth2/authorize?client_id=${global.serverClient.user.id}&permissions=1&scope=bot%20applications.commands`,
-                            emoji: {
-                                name: "🤖"
-                            }
+                            
                         }, {
                             type: 2,
                             style: 5,
                             label: "Add Server",
                             url: `${global.config.website.url}/servers`,
                             disabled: global.config.website.url ? false : true,
-                            emoji: {
-                                name: "🔗"
-                            }
+                            
                         }
                     ]
                 }]

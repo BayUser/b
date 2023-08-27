@@ -6,7 +6,7 @@ module.exports = {
     description: "Returns latency and API ping",
     run: async (client, message) => {
         return message.channel.send({
-            content: `Pong! Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`,
+            content: `Pong! :ping_pong: Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`,
         });
     },
 };

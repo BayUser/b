@@ -14,7 +14,7 @@ module.exports = {
             let command = args.join(" ");
             let embed = {};
             embed.title = "Exec";
-            embed.color = 0x00ff00;
+            embed.color = 0x2f3136;
             
             try {
                 let { stdout, stderr } = await exec(command);

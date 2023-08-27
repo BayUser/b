@@ -20,7 +20,7 @@ module.exports = {
             const embed = {};
             embed.title = "Eval";
             embed.description = "```js\n" + clean(evaled) + "```";
-            embed.color = 0x00ff00;
+            embed.color = 0x2f3136;
             if (embed.description.length > 2000) {
                 message.channel.send({
                     files: [{
