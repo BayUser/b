@@ -4,18 +4,18 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
-  <title> <%- botdata.username %> | Astra Bot List </title>
+  <title> <%- botdata.username %> | Mechatron List's </title>
   <link rel="shortcut icon" href="<%= bot.users.cache.get(botdata.botID)?.displayAvatarURL() || 'https://cdn.discordapp.com/embed/avatars/0.png' %>">
-  <meta property="og:url" content="https://astrabots.xyz/bot/<%=botdata.botID%>">
+  <meta property="og:url" content="https://pegasusbot.xyz/bot/<%=botdata.botID%>">
   <meta property="og:type" content="website">
   <meta property="og:image:alt" content="<%= bot.users.cache.get(botdata.botID)?.username || 'Undefined' %>">
-  <meta property="og:title" content="<%=bot.users.cache.get(botdata.botID)?.username %> | astrabots.xyz">
+  <meta property="og:title" content="<%=bot.users.cache.get(botdata.botID)?.username %> | pegasusbot.xyz">
   <meta property="og:description" content="<%= botdata.shortDesc %>">
   <meta property="og:image" content="<%= bot.users.cache.get(botdata.botID)?.displayAvatarURL() || 'https://cdn.discordapp.com/embed/avatars/0.png' %>">
-  <meta property="og:site_name" content="astrabots.xyz">
+  <meta property="og:site_name" content="pegasusbot.xyz">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary">
-  <meta name="theme-color" content="#5024f3">
+  <meta name="theme-color" content="#2f3136">
 </head>
 
 <%- include('../partials/head') %>
@@ -91,7 +91,7 @@
             <p class="card-footer d-flex align-items-center border-0  mt-lg-0">
               <%- bot.md.render(botdata.longDesc)
               .replace(/url\(['"]?(?:(?!['"]?\)).)+['"]?\)/gi, '')
-              .replace(/<iframe/gi, '<iframe style="width: 100%; height:100vh;"') %>
+              .replace(/<iframe/gi, '<iframe style="width: 100%; height:100vh;") %>
             </p>
           </div>
         </div>
@@ -290,7 +290,7 @@
           </div>
           <button class="btn btn-outline-secondary my-1 me-1" id="postComment">Post</button>
         </div>
-        <div class=d-flex align-items-center justify-content-between ps-3 pb-2 mb-1">
+        <div class="d-flex align-items-center justify-content-between ps-3 pb-2 mb-1">
           <div class="rating">
             <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
             <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
