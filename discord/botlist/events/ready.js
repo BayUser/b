@@ -9,7 +9,7 @@ module.exports = {
                 let bots = await botsdata.find() || [];
                 client.user.setPresence({
                     activities: [
-                        { name: `${bots.length ? bots.length : 0} bots! | @mention me for help` }
+                        { name: `${bots.length ? bots.length : 0} bots! | !!help` }
                     ],
                 });
             }, 60000 * 10); // 10 minutes

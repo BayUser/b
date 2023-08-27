@@ -11,12 +11,12 @@ module.exports = {
     // ServerClient will be the bot that will be used for the server list/server commands 
     // and the bot that will be public to everyone so they can invite it to their server.
     serverClient: {
-        id: '1066734883059290162', // Server Bot ID
+        id: '1145263085679030273', // Server Bot ID
         prefix: '??', // Server Bot prefix
-        token: process.env.token, // Server Bot token
+        token: process.env.token2, // Server Bot token
 
         // Replace the REPLACEME with your client ID
-        invite: 'https://discord.com/oauth2/authorize?client_id=1066734883059290162&scope=bot%20identify&permissions=19473'
+        invite: 'https://discord.com/oauth2/authorize?client_id=1145263085679030273&scope=bot%20identify&permissions=19473'
     },
 
     database: {
@@ -30,7 +30,7 @@ module.exports = {
         // callback: 'http://localhost:4777/callback', // default callback url
 
         // Example with domain:
-        url: 'https://jet-ringed-spoon.glitch.me/', // default url
+        url: 'https://jet-ringed-spoon/', // default url
         callback: 'https://jet-ringed-spoon.glitch.me/callback', // default callback url
 
         // For login issues about the callback url, please join the support server and check the #support channel pinned messages.
@@ -119,8 +119,8 @@ module.exports = {
             serverlogs: '1145239512360955944', // Server Add, Remove, Approve, Deny, Edit
             
             // Greetings
-            welcome: '1134939699484577913', // welcome logs channel Member/Bot joins the server
-            leave: '1134939699484577913', // Leave logs channel Member/Bot leaves the server
+            welcome: '', // welcome logs channel Member/Bot joins the server
+            leave: '', // Leave logs channel Member/Bot leaves the server
 
             schedules: '1145239512360955944', // New schedule logs channel when you want to schedule a promotion
 

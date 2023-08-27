@@ -8,7 +8,7 @@ module.exports = {
                 let servers = await serversdata.find() || [];
                 serverClient.user.setPresence({
                     activities: [
-                        { name: `${servers.length ? servers.length : 0} servers! | @mention me for help` }
+                        { name: `${servers.length ? servers.length : 0} servers! | ??help` }
                     ],
                     // status: 'idle'
                 });

@@ -41,7 +41,7 @@ module.exports = {
                 });
             } else {
                 const embed = {};
-                embed.color = 0x00ff00; // Green
+                embed.color = 0x2f3136; // Green
                 embed.title = "Help Menu";
                 embed.author = {
                     name: message.author.tag,
