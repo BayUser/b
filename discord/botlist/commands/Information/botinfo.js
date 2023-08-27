@@ -31,7 +31,7 @@ module.exports = {
             let msg = await message.channel.send("This may take a while...");
 
             const embed = {};
-            embed.color = 0x5865F2;
+            embed.color = 0x2f3136;
             embed.author = {
                 name: fetchedBot.username,
                 icon_url: fetchedBot.displayAvatarURL() ? fetchedBot.displayAvatarURL() : "https://cdn.discordapp.com/embed/avatars/0.png"

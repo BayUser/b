@@ -8,7 +8,7 @@
     "start": "node client.js"
   },
   "engines": {
-  "node": "16.6.0"
+    "node": "16.6.0"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "country-code-lookup": "^0.0.20",
     "cute-logs": "^0.0.1",
     "discord": "^0.8.2",
+    "discord.js": "^14.13.0",
     "ejs": "^3.1.8",
     "errorhandler": "^1.5.1",
     "express": "^4.18.1",

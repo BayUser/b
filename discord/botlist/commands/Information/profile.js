@@ -58,6 +58,7 @@ module.exports = {
                 text: `Requested by ${message.author.username}#${message.author.discriminator} | ${Date.now() - startTime}ms`
             };
             embed.timestamp = new Date();
+            embed.color(0x2f3136)
 
             return message.reply({
                 embeds: [embed],

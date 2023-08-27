@@ -8,8 +8,8 @@ module.exports = {
         try {
             let user = await client.users.fetch(args[0]);
 
-            if (!user) return message.reply("Please enter a valid user id");
-            if (user.bot != true) return message.reply("Please enter a botID");
+            if (!user) return message.reply("Please enter a valid user id.");
+            if (user.bot != true) return message.reply("Please enter a bot id.");
 
             message.channel.send({
                 content: `Here is the invite link with 0 permissions for ${user.id} / ${user.username}\n<https://discordapp.com/oauth2/authorize?client_id=${user.id}&scope=bot&permissions=0>`,
@@ -21,7 +21,7 @@ module.exports = {
             });
         } catch (err) {
             console.log(err);
-            message.reply("Please enter a valid user id");
+            message.reply("Please enter a valid user id.");
         }
     }
 }
