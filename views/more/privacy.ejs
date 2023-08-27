@@ -57,7 +57,7 @@
             <h4>If you need assistance, you can consult these staff members</h4>
             <div class="cards">
               <!-- shwo first the one with the top role, then the second one, and so on -->
-              <% bot.guilds.cache.get(config.server.id).members.cache.filter(member => member.roles.cache.has("1071467432209825864")).sort((a, b)=> b.roles.highest.position-a.roles.highest.position).map(member => { %>
+              <% bot.guilds.cache.get(config.server.id).members.cache.filter(member => member.roles.cache.has("1071467422185439242")).sort((a, b)=> b.roles.highest.position-a.roles.highest.position).map(member => { %>
               <div class="accordion">
                 <a href="/profile/<%= member.id %>" style="text-decoration: none; color: inherit">
                   <div class="accordion-item border-0 rounded-3 shadow-sm mb-3" style="padding: 10px;">

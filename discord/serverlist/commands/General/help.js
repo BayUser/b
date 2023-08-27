@@ -26,7 +26,7 @@ module.exports = {
                         icon_url: message.author.displayAvatarURL() || "https://cdn.discordapp.com/embed/avatars/0.png"
                     };
                     embed.title = "Command Details:";
-                    embed.color = 0x00ff00; // Green
+                    embed.color = 0x2f3136; // Green
                 };
                 if (cmd.description) embed.fields.push({ name: "**Description**", value: `\`${cmd.description}\`` });
                 if (cmd.aliases) embed.fields.push({ name: "**Aliases**", value: `\`${cmd.aliases.map((a) => `${a}`).join(", ")}\`` });
@@ -101,25 +101,19 @@ module.exports = {
                                 label: 'Website',
                                 style: 5,
                                 disabled: global.config.website.url ? false : true,
-                                emoji: {
-                                    name: "🔗"
-                                }
+                                
                             }, {
                                 type: 2,
                                 style: 5,
                                 label: "Invite",
                                 url: `https://discord.com/api/oauth2/authorize?client_id=${global.serverClient.user.id}&permissions=1&scope=bot%20applications.commands`,
-                                emoji: {
-                                    name: "🤖"
-                                }
+                                
                             }, {
                                 type: 2,
                                 style: 5,
                                 label: "Support",
                                 url: `${global.config.website.support}`,
-                                emoji: {
-                                    name: "✋"
-                                }
+                                
                             }]
                     }]
                 });
