@@ -30,8 +30,8 @@ module.exports = {
         // callback: 'http://localhost:4777/callback', // default callback url
 
         // Example with domain:
-        url: 'https://jet-ringed-spoon/', // default url
-        callback: 'https://jet-ringed-spoon.glitch.me/callback', // default callback url
+        url: 'https://pegasusbot.xyz/', // default url
+        callback: 'https://pegasusbot.xyz/callback', // default callback url
 
         // For login issues about the callback url, please join the support server and check the #support channel pinned messages.
         // If you still can't fix it, feel free to open a ticket in the support server.
