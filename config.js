@@ -142,9 +142,5 @@ module.exports = {
         }
     },
 
-    languages: [{
-        flag: 'us',
-        code: 'en',
-        name: 'English'
-    }],
+    languages: [],
 }
